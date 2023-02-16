@@ -4,7 +4,6 @@ import requests
 bot = TeleBot("Your Bot Token")
 username = ''
 password = ''
-recipient = ''
 amount = 0
 balance = 0
 main_menu = """Main Menu \n \n ######################### \n \n Main Menu: /main_menu \n Price: /price \n Balance: /balance \n Balance in USD : /balance_dollars \n Balance in BTC : /balance_btc \n Login : /login \n \n #########################"""
